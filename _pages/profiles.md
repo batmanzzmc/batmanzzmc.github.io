@@ -2,7 +2,7 @@
 layout: profiles
 permalink: /people/
 title: people
-description: I am recruiting students. This page will be updated later.
+description: Please send me your CV if you are interested in a Master or PhD position in SCUT.
 nav: true
 nav_order: 7
 
@@ -19,3 +19,11 @@ profiles:
   #      <p>Your City, State 12345</p>
 
 ---
+
+profiles:
+
+- align: right
+image: prof_pic.jpg
+content: about_einstein.md
+image_circular: false # crops the image to make it circular
+
