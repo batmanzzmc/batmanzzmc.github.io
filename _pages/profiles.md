@@ -5,7 +5,7 @@ title: people
 description: Please send me your CV if you are interested in a Master or PhD position in SCUT.
 nav: true
 nav_order: 7
-
+---
 xinzhi zhang
 
 # profiles:
@@ -29,5 +29,4 @@ xinzhi zhang
   #      <p>123 your address street</p>
   #      <p>Your City, State 12345</p>
 
----
 
