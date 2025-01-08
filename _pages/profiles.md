@@ -8,6 +8,10 @@ nav_order: 7
 ---
 Xinzhi Zhang, PhD student, 2024-
 
+Jiajie Zeng, Master student, 2025-
+
+Yiran Zeng, Master student, 2025-
+
 Zengyang Wang, Master student, 2024-
 
 Zhijie Liu, Master student, 2024-
@@ -16,9 +20,9 @@ Qiongfang Zou, Master student, 2024-
 
 Xuechuan Liu, Master student, 2024-
 
-Jiajie Zeng, Master student, 2025-
+Ronghui Yang, Master student (co-supervised with Yi Cai), 2023-
 
-Yiran Zeng, Master student, 2025-
+Jie Liu, Master student (co-supervised with Yi Cai), 2023-
 
 Haoxi Chen, Undergraduate student, 2024-
 
