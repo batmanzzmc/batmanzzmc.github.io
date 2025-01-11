@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /people/
-title: people
-description: Please send me your CV if you are interested in a Master or PhD position in SCUT.
+permalink: /People/
+title: People
+description: Please send me your CV if you are interested in a Master, PhD or research assistant position in my group.
 nav: true
 nav_order: 7
 ---
