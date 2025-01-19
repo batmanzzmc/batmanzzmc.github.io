@@ -20,9 +20,9 @@ Qiongfang Zou, Master student, 2024-
 
 Xuechuan Liu, Master student, 2024-
 
-Ronghui Yang, Master student (co-supervised with Yi Cai), 2023-
+Ronghui Yang, Master student (co-supervised with Yi Cai), 2024-
 
-Jie Liu, Master student (co-supervised with Yi Cai), 2023-
+Jie Liu, Master student (co-supervised with Yi Cai), 2024-
 
 Haoxi Chen, Undergraduate student, 2024-
 
