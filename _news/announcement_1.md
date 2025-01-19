@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am recruiting PhD and Master students starting in Sep. 2025. Please feel free to drop an email if you are interested. 
+I am recruiting PhD and Master students starting in Sep. 2025. Please feel free to drop an email if you are interested. :sparkles:
