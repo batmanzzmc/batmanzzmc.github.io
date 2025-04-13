@@ -28,6 +28,12 @@ Haoxi Chen, Undergraduate student, 2024-
 
 Wenzheng Yao, Undergraduate student, 2024-
 
+Qirui Gan, Undergraduate student, 2024-
+
+Yuxiang Ye, Undergraduate student, 2024-
+
+Antao Xiang, Undergraduate student, 2024-
+
 Lufan Yang, Alumni, Now at Simon Fraser University
 
 
