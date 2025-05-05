@@ -2,11 +2,15 @@
 layout: page
 permalink: /People/
 title: People
-description: Please send me your CV if you are interested in a Master, PhD or Research Assistant position in my group.
+description: Please send me your CV if you are interested in a Master, PhD or Research Assistant position in my group. 
 nav: true
 nav_order: 7
 ---
 Xinzhi Zhang, PhD student, 2024-
+
+Junxiao Gan, Master student, 2025-
+
+Wenhao Xu, Master student, 2025-
 
 Jiajie Zeng, Master student, 2025-
 
@@ -33,8 +37,6 @@ Qirui Gan, Undergraduate student, 2024-
 Yuxiang Ye, Undergraduate student, 2024-
 
 Antao Xiang, Undergraduate student, 2024-
-
-Lufan Yang, Alumni, Now at Simon Fraser University
 
 
 
