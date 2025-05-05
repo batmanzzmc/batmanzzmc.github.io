@@ -8,10 +8,6 @@ nav_order: 7
 ---
 Xinzhi Zhang, PhD student, 2024-
 
-Junxiao Gan, Master student, 2025-
-
-Wenhao Xu, Master student, 2025-
-
 Jiajie Zeng, Master student, 2025-
 
 Yiran Zeng, Master student, 2025-
