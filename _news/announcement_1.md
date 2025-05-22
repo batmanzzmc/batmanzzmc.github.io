@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am recruiting PhD and Master students starting in Sep. 2025. Please feel free to drop an email if you are interested. :sparkles:
+I am recruiting Postdoc, PhD and Master students at SCUT. Please feel free to drop an email if you are interested. :sparkles:
