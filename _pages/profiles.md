@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /People/
-title: People
+permalink: /Team/
+title: Team
 description: Please send me your CV if you are interested in a Master, PhD, PostDoc or Research Assistant position in our group. 
 nav: true
 nav_order: 7
