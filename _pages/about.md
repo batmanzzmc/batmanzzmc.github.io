@@ -11,7 +11,7 @@ profile:
     <p>Associate Professor</p>
     <p>South China University of Technology</p>
     <p>Email: zzmc{AT}scut.edu.cn</p>
-    <p>Office: B8-406, School of Software Engineering</p>
+    <p>Office: B8-413, School of Software Engineering</p>
 
 news: true # includes a list of news items
 latest_posts: false # includes a list of the newest posts
