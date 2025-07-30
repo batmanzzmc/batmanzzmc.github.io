@@ -6,7 +6,16 @@ description: Please send me your CV if you are interested in a Master, PhD, Post
 nav: true
 nav_order: 7
 ---
+
+Xiaochao Pan, PhD student, 2025-
+
+Yidong He, PhD student, 2025-
+
 Xinzhi Zhang, PhD student, 2024-
+
+Wenhao Xu, Master student, 2025-
+
+Junxiao Gan, Master student, 2025-
 
 Jiajie Zeng, Master student, 2025-
 
