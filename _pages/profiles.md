@@ -21,6 +21,8 @@ Jiajie Zeng, Master student, 2025-
 
 Yiran Zeng, Master student, 2025-
 
+Beibei Chen, Master student, 2025-
+
 Zengyang Wang, Master student, 2024-
 
 Zhijie Liu, Master student, 2024-
