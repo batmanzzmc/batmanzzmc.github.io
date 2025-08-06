@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I am recruiting Postdoc, PhD and Master students at SCUT. Undergraduate students with motivation to pursue a Master or PhD are also welcome. Feel free to drop an email if you are interested. :sparkles:
+I am recruiting Postdoc, PhD and Master students at SCUT. Undergraduate students with motivation to pursue a Master or PhD are also welcome. Feel free to email me if you are interested. :sparkles:
