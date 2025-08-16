@@ -44,7 +44,7 @@ Yutao Lai, Undergraduate student, 2025-
 
 Antao Xiang, Undergraduate student, 2024-
 
-Sixu Chen, Undergraduate student, 2024-
+Sixu Chen, Undergraduate student, 2025-
 
 ## Code Agent Team
 
