@@ -34,6 +34,8 @@ Wenzheng Yao, Undergraduate student, 2024-
 
 Yuxiang Ye, Undergraduate student, 2024-
 
+Miaojin Liu, Undergraduate student, 2025-
+
 ## Multi-Agent Team
 
 Yidong He, PhD student, 2025-
