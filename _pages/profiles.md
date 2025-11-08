@@ -19,7 +19,7 @@ Yiran Zeng, Master student, 2025-
 
 Qiongfang Zou, Master student, 2024-
 
-Qirui Gan, Undergraduate student, 2024-
+Pengxu Yang, Undergraduate student, 2025-
 
 
 ## GUI Agent Team
@@ -29,10 +29,6 @@ Xiaochao Pan, PhD student, 2025-
 Junxiao Gan, Master student, 2025-
 
 Zhijie Liu, Master student, 2024-
-
-Wenzheng Yao, Undergraduate student, 2024-
-
-Yuxiang Ye, Undergraduate student, 2024-
 
 Miaojin Liu, Undergraduate student, 2025-
 
@@ -48,7 +44,6 @@ Yutao Lai, Undergraduate student, 2025-
 
 Antao Xiang, Undergraduate student, 2024-
 
-Sixu Chen, Undergraduate student, 2025-
 
 ## Code Agent Team
 
@@ -61,6 +56,18 @@ Jiajie Zeng, Master student, 2025-
 Wenhao Xu, Master student, 2025-
 
 Beibei Chen, Master student, 2025-
+
+## Alumni
+
+Wenzheng Yao, will join Nanjing University
+
+Yuxiang Ye, will join Zhejiang University
+
+Qirui Gan, will join Zhejiang University
+
+Sixu Chen, will join Tsinghua University
+
+
 
 
 
