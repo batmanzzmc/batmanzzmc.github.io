@@ -7,7 +7,6 @@ nav: true
 nav_order: 7
 ---
 
-## LLM Agent Team
 
 Xinzhi Zhang, PhD student, 2024-
 
@@ -21,9 +20,6 @@ Qiongfang Zou, Master student, 2024-
 
 Pengxu Yang, Undergraduate student, 2025-
 
-
-## GUI Agent Team
-
 Xiaochao Pan, PhD student, 2025-
 
 Junxiao Gan, Master student, 2025-
@@ -34,8 +30,6 @@ Miaojin Liu, Undergraduate student, 2025-
 
 Jinhai Chen, Master student, 2025-
 
-## Multi-Agent Team
-
 Yidong He, PhD student, 2025-
 
 Haoxi Chen, Undergraduate student, 2024-
@@ -43,9 +37,6 @@ Haoxi Chen, Undergraduate student, 2024-
 Yutao Lai, Undergraduate student, 2025-
 
 Antao Xiang, Undergraduate student, 2024-
-
-
-## Code Agent Team
 
 Jie Liu, Master student (co-supervised with Yi Cai), 2024-
 
