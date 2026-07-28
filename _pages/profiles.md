@@ -48,16 +48,11 @@ Wenhao Xu, Master student, 2025-
 
 Beibei Chen, Master student, 2025-
 
-## Alumni
+Ziwu Ge, Undergraduate student, 2025-
 
-Wenzheng Yao, will join Nanjing University
+Weichen Chen, Undergraduate student, 2025-
 
-Yuxiang Ye, will join Zhejiang University
-
-Qirui Gan, will join Zhejiang University
-
-Sixu Chen, will join Tsinghua University
-
+Jiaqi He, Undergraduate student, 2025-
 
 
 
