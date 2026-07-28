@@ -28,11 +28,7 @@ Zhijie Liu, Master student, 2024-
 
 Miaojin Liu, Undergraduate student, 2025-
 
-Jinhai Chen, Master student, 2025-
-
 Yidong He, PhD student, 2025-
-
-Haoxi Chen, Undergraduate student, 2024-
 
 Yutao Lai, Undergraduate student, 2025-
 
@@ -53,6 +49,16 @@ Ziwu Ge, Undergraduate student, 2025-
 Weichen Chen, Undergraduate student, 2025-
 
 Jiaqi He, Undergraduate student, 2025-
+
+Zili Zhang, Master student, 2026-
+
+Haoxi Chen, Master student, 2026-
+
+Jinhai Chen, Master student, 2026-
+
+Longlong Chen, Undergraduate student, 2025-
+
+Da Chen, Undergraduate student, 2025-
 
 
 
