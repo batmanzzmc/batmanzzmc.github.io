@@ -1,11 +1,6 @@
-# Optional: detailed education and bio for the About page.
-# Basic info (name, photo, links) now lives in _config.yml.
-# Delete this file if you only need the basics.
-
-# EXAMPLE -- replace or delete
 - education:
-    - "(1942) Ph.D. Physics, Princeton University"
-    - "(1939) B.S. Physics, Massachusetts Institute of Technology"
+    - "(2019) Ph.D., School of Computer Science and Engineering, Nanyang Technological University; advisor: Prof. Bo An"
+    - "(2014) Bachelor’s degree, College of Mathematics, Sun Yat-Sen University"
   educationshort:
-    - "(1942) Ph.D. Physics, Princeton"
-    - "(1939) B.S. Physics, MIT"
+    - "(2019) Ph.D., Nanyang Technological University"
+    - "(2014) Bachelor’s, Sun Yat-Sen University"
