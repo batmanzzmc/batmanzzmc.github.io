@@ -6,7 +6,7 @@ permalink: /team/
 
 # Team
 
-**We are looking for new team members!**
+Please send your CV to [{{ site.email }}](mailto:{{ site.email }}) if you are interested in a Master, PhD, PostDoc or Research Assistant position in our group.
 
 ## PI
 
@@ -34,47 +34,21 @@ permalink: /team/
 </div>
 </div>
 
-{% if site.data.team_members.size > 0 %}
-## Current Students and Postdocs
+{% assign categories = "PhD|Master|Undergraduate" | split: "|" %}
+{% for category in categories %}
+{% assign members = site.data.team_members | where: "category", category %}
+{% if members.size > 0 %}
+## {{ category }} Students
 
 <div class="team-grid">
-{% for member in site.data.team_members %}
+{% for member in members %}
 <div class="team-card">
-<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy">
+{% if member.photo %}<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy">{% endif %}
 <h3 class="team-name">{{ member.name }}</h3>
 <p class="team-info">{{ member.info }}</p>
-<div class="team-links">
-{% if member.email %}<a href="mailto:{{ member.email }}" class="icon-link" title="Email" aria-label="Email">{% include icon.html name="envelope" %}</a>{% endif %}
-{% if member.website %}<a href="{{ member.website }}" class="icon-link" title="Website" aria-label="Website">{% include icon.html name="house" %}</a>{% endif %}
-{% if member.scholar %}<a href="{{ member.scholar }}" class="icon-link" title="Google Scholar" aria-label="Google Scholar">{% include icon.html name="google-scholar" %}</a>{% endif %}
-{% if member.github %}<a href="{{ member.github }}" class="icon-link" title="GitHub" aria-label="GitHub">{% include icon.html name="github" %}</a>{% endif %}
-</div>
+<p class="team-info">{{ member.since }}–present</p>
 </div>
 {% endfor %}
 </div>
 {% endif %}
-
-{% if site.data.alumni.size > 0 %}
-## Alumni
-
-<div class="section-card">
-<table class="alumni-table">
-<thead>
-<tr><th>Name</th><th>Duration</th><th>Current Position</th></tr>
-</thead>
-<tbody>
-{% for member in site.data.alumni %}
-<tr>
-<td>{{ member.name }}</td>
-<td>{{ member.duration }}</td>
-<td>{{ member.info }}</td>
-</tr>
 {% endfor %}
-</tbody>
-</table>
-</div>
-{% endif %}
-
-## Administrative Support
-
-<a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.
