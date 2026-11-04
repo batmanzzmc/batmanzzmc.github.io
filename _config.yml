@@ -47,7 +47,6 @@ analytics:
 # Each name is a page in _pages/. Add `label: Papers` to change the
 # navbar text without changing the URL.
 nav_pages:
-  - name: about
   - name: publications
   - name: research
   - name: team
@@ -110,6 +109,7 @@ plugins: ["jekyll/scholar", "jekyll-sitemap"]
 
 # Repository files that should not be published to the site
 exclude:
+  - _pages/about.md
   - Gemfile
   - Gemfile.lock
   - README.md

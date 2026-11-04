@@ -16,9 +16,3 @@ permalink: /
 
 {% include biography.md %}
 
-## Recent publications
-
-<div class="section-card selected-pubs" markdown="0">
-{% bibliography --query @*[year=2026] %}
-<p><a href="{{ '/publications/' | relative_url }}">All publications &rarr;</a></p>
-</div>
