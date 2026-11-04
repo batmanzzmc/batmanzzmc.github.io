@@ -1,24 +1,12 @@
 ---
 ---
 
-{% comment %}
-  Bold the site owner's name. Uses scholar.last_name / scholar.first_name
-  from _config.yml; the first matching form wins.
-{% endcomment %}
-{% assign ref = reference %}
-{% if site.scholar.last_name and site.scholar.first_name %}
-  {% assign bolded = false %}
-  {% for first in site.scholar.first_name %}
-    {% unless bolded %}
-      {% capture me %}{{ site.scholar.last_name }}, {{ first }}{% endcapture %}
-      {% if ref contains me %}
-        {% capture me_bold %}<b>{{ me }}</b>{% endcapture %}
-        {% assign ref = ref | replace: me, me_bold %}
-        {% assign bolded = true %}
-      {% endif %}
-    {% endunless %}
-  {% endfor %}
-{% endif %}
+{% assign authors = entry.author | full_publication_authors | strip %}
+{% assign title = entry.title | strip %}
+{% assign venue = entry.journal | default: entry.booktitle | strip %}
+{% assign author_ending = authors | slice: -1, 1 %}
+{% assign title_ending = title | slice: -1, 1 %}
+{% assign venue_ending = venue | slice: -1, 1 %}
 
 {% comment %}
   Links come from BibTeX fields:
@@ -40,7 +28,9 @@
 
 <div class="pub-entry" data-pub-searchable>
   {% if entry.year %}<span class="year-badge">{{ entry.year }}</span>{% endif %}
-  <div class="text-justify">{{ ref }}</div>
+  <div class="pub-authors">{{ authors | escape }}{% if author_ending != '.' %}.{% endif %}</div>
+  <div class="pub-title">{{ title | escape }}{% unless title_ending == '.' or title_ending == '?' or title_ending == '!' %}.{% endunless %}</div>
+  {% if venue != '' %}<div class="pub-venue"><em>{{ venue | escape }}</em>{% if venue_ending != '.' %}.{% endif %}</div>{% endif %}
 
   <div class="pub-actions">
     {% if has_pdf %}<a href="{{ entry.file | prepend: '/papers/' | relative_url }}" target="_blank" class="btn-pill btn-pdf">PDF</a>{% endif %}

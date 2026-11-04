@@ -12,6 +12,7 @@
   }
 
   .pub-title {
+    margin-top: var(--space-1);
     font-weight: 600;
     color: var(--text-primary);
   }
@@ -22,6 +23,7 @@
   }
 
   .pub-venue {
+    margin-top: var(--space-1);
     font-size: 0.875rem;
     color: var(--text-muted);
     font-style: italic;
