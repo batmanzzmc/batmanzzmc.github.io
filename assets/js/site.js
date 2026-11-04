@@ -169,7 +169,9 @@
         }
       });
     }, {
-      threshold: 0.1,
+      // Long pages (such as the complete bibliography) may never have 10%
+      // of their height in the viewport. Reveal as soon as any part enters.
+      threshold: 0,
       rootMargin: '0px 0px -40px 0px'
     });
 
