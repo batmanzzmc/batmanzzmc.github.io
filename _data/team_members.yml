@@ -9,19 +9,22 @@
     "name": "Chongxi Zhao",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/chongxi-zhao.webp"
+    "photo": "team/students/chongxi-zhao.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Da Chen",
     "category": "Undergraduate",
     "info": "Undergraduate student",
-    "photo": "team/students/da-chen.webp"
+    "photo": "team/students/da-chen.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Hohei Chan",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/hohei-chan.webp"
+    "photo": "team/students/hohei-chan.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Jiahao Huang",
@@ -39,13 +42,15 @@
     "name": "Jiajie Zeng",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/jiajie-zeng.webp"
+    "photo": "team/students/jiajie-zeng.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Jinhai Chen",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/jinhai-chen.webp"
+    "photo": "team/students/jinhai-chen.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Junxiao Gan",
@@ -87,25 +92,29 @@
     "name": "Weijun Ye",
     "category": "Undergraduate",
     "info": "Undergraduate student",
-    "photo": "team/students/weijun-ye.webp"
+    "photo": "team/students/weijun-ye.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Wenhao Xu",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/wenhao-xu.webp"
+    "photo": "team/students/wenhao-xu.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Wulue Wang",
     "category": "Undergraduate",
     "info": "Undergraduate student",
-    "photo": "team/students/wulue-wang.webp"
+    "photo": "team/students/wulue-wang.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Xiang Li",
     "category": "Undergraduate",
     "info": "Undergraduate student",
-    "photo": "team/students/xiang-li.webp"
+    "photo": "team/students/xiang-li.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Xiaochao Pan",
@@ -130,13 +139,15 @@
     "name": "Xuechuan Liu",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/xuechuan-liu.webp"
+    "photo": "team/students/xuechuan-liu.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Yidong He",
     "category": "PhD",
     "info": "PhD student",
-    "photo": "team/students/yidong-he.webp"
+    "photo": "team/students/yidong-he.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Yiran Zeng",
@@ -154,13 +165,15 @@
     "name": "Zhijie Liu",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/zhijie-liu.webp"
+    "photo": "team/students/zhijie-liu.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Zili Zhang",
     "category": "Master",
     "info": "Master student",
-    "photo": "team/students/zili-zhang.webp"
+    "photo": "team/students/zili-zhang.webp",
+    "photo_position": "50% 0%"
   },
   {
     "name": "Ziwu Ge",

@@ -6,11 +6,21 @@
   display: grid;
   grid-template-columns: 340px minmax(0, 1fr);
   gap: var(--space-12);
-  align-items: start;
+  align-items: stretch;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
     gap: var(--space-8);
+  }
+}
+
+.home-sidebar {
+  display: flex;
+  flex-direction: column;
+
+  .profile-card {
+    flex: 1;
+    padding: var(--space-6);
   }
 }
 

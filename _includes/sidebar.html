@@ -4,13 +4,15 @@
 <p class="profile-title">{{ site.title }}</p>
 <p class="profile-institution">{{ site.institution }}</p>
 <p class="profile-institution">Office: B8-413, University Town Campus</p>
-<div class="profile-links">
+{% capture profile_links %}
 {% if site.links.cv and site.links.cv != "" %}<a href="{{ site.links.cv | prepend: '/' | relative_url }}" class="icon-link" title="CV" aria-label="CV">{% include icon.html name="cv" %}</a>{% endif %}
 {% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate" aria-label="ResearchGate">{% include icon.html name="researchgate" %}</a>{% endif %}
 {% if site.links.orcid and site.links.orcid != "" %}<a href="{{ site.links.orcid }}" class="icon-link" title="ORCID" aria-label="ORCID">{% include icon.html name="orcid" %}</a>{% endif %}
 {% if site.links.twitter and site.links.twitter != "" %}<a href="{{ site.links.twitter }}" class="icon-link" title="Twitter" aria-label="Twitter">{% include icon.html name="x-twitter" %}</a>{% endif %}
 {% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn" aria-label="LinkedIn">{% include icon.html name="linkedin" %}</a>{% endif %}
-</div>
+{% endcapture %}
+{% assign profile_links = profile_links | strip %}
+{% if profile_links != '' %}<div class="profile-links">{{ profile_links }}</div>{% endif %}
 {% if site.data.pi[0].educationshort %}
 <ul style="text-align: left; margin-top: var(--space-4); list-style: none; padding-left: 0;">
 {% for education in site.data.pi[0].educationshort %}
