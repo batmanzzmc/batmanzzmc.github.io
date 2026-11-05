@@ -8,7 +8,7 @@ permalink: /team/
 
 {% assign categories = "PhD|Master|Undergraduate" | split: "|" %}
 {% for category in categories %}
-{% assign members = site.data.team_members | where: "category", category %}
+{% assign members = site.data.team_members | where: "category", category | sort_by_surname %}
 {% if members.size > 0 %}
 ## {{ category }} Students
 
