@@ -73,8 +73,8 @@
     margin-top: 0;
   }
 
-  // First paragraph — slightly larger, editorial lead-in
-  > p:first-of-type {
+  // Paragraphs — consistent editorial style
+  > p {
     font-size: 1.0625rem;
     line-height: 1.8;
     color: var(--text-primary);
