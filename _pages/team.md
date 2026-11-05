@@ -15,10 +15,9 @@ permalink: /team/
 <div class="team-grid">
 {% for member in members %}
 <div class="team-card">
-{% if member.photo %}<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy">{% endif %}
+{% if member.photo %}<img src="{{ member.photo | prepend: '/images/' | relative_url }}" class="team-photo" alt="{{ member.name }}" width="100" height="100" loading="lazy" style="object-position: {{ member.photo_position | default: '50% 50%' }};">{% endif %}
 <h3 class="team-name">{{ member.name }}</h3>
 <p class="team-info">{{ member.info }}</p>
-<p class="team-info">{{ member.since }}–present</p>
 </div>
 {% endfor %}
 </div>

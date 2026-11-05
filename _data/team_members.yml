@@ -1,158 +1,177 @@
 [
   {
-    "name": "Xinzhi Zhang",
-    "category": "PhD",
-    "info": "PhD student",
-    "since": "2024"
-  },
-  {
-    "name": "Zengyang Wang",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2024"
-  },
-  {
-    "name": "Xuechuan Liu",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2024"
-  },
-  {
-    "name": "Yiran Zeng",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2025"
-  },
-  {
-    "name": "Qiongfang Zou",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2024"
-  },
-  {
-    "name": "Pengxu Yang",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Xiaochao Pan",
-    "category": "PhD",
-    "info": "PhD student",
-    "since": "2025"
-  },
-  {
-    "name": "Junxiao Gan",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2025"
-  },
-  {
-    "name": "Zhijie Liu",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2024"
-  },
-  {
-    "name": "Miaojin Liu",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Yidong He",
-    "category": "PhD",
-    "info": "PhD student",
-    "since": "2025"
-  },
-  {
-    "name": "Yutao Lai",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Antao Xiang",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2024"
-  },
-  {
-    "name": "Jie Liu",
-    "category": "Master",
-    "info": "Master student (co-supervised with Yi Cai)",
-    "since": "2024"
-  },
-  {
-    "name": "Ronghui Yang",
-    "category": "Master",
-    "info": "Master student (co-supervised with Yi Cai)",
-    "since": "2024"
-  },
-  {
-    "name": "Jiajie Zeng",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2025"
-  },
-  {
-    "name": "Wenhao Xu",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2025"
-  },
-  {
     "name": "Beibei Chen",
     "category": "Master",
     "info": "Master student",
-    "since": "2025"
+    "photo": "team/students/beibei-chen.webp"
   },
   {
-    "name": "Ziwu Ge",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Weichen Chen",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Jiaqi He",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
-  },
-  {
-    "name": "Zili Zhang",
+    "name": "Chongxi Zhao",
     "category": "Master",
     "info": "Master student",
-    "since": "2026"
-  },
-  {
-    "name": "Haoxi Chen",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2026"
-  },
-  {
-    "name": "Jinhai Chen",
-    "category": "Master",
-    "info": "Master student",
-    "since": "2026"
-  },
-  {
-    "name": "Longlong Chen",
-    "category": "Undergraduate",
-    "info": "Undergraduate student",
-    "since": "2025"
+    "photo": "team/students/chongxi-zhao.webp"
   },
   {
     "name": "Da Chen",
     "category": "Undergraduate",
     "info": "Undergraduate student",
-    "since": "2025"
+    "photo": "team/students/da-chen.webp"
+  },
+  {
+    "name": "Hohei Chan",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/hohei-chan.webp"
+  },
+  {
+    "name": "Jiahao Huang",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/jiahao-huang.webp"
+  },
+  {
+    "name": "Jiahao Li",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/jiahao-li.webp"
+  },
+  {
+    "name": "Jiajie Zeng",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/jiajie-zeng.webp"
+  },
+  {
+    "name": "Jinhai Chen",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/jinhai-chen.webp"
+  },
+  {
+    "name": "Junxiao Gan",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/junxiao-gan.webp"
+  },
+  {
+    "name": "Miaojin Liu",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/miaojin-liu.webp"
+  },
+  {
+    "name": "Pengxu Yang",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/pengxu-yang.webp"
+  },
+  {
+    "name": "Qiongfang Zou",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/qiongfang-zou.webp"
+  },
+  {
+    "name": "Ruxi Yuan",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/ruxi-yuan.webp"
+  },
+  {
+    "name": "Weichen Chen",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/weichen-chen.webp"
+  },
+  {
+    "name": "Weijun Ye",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/weijun-ye.webp"
+  },
+  {
+    "name": "Wenhao Xu",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/wenhao-xu.webp"
+  },
+  {
+    "name": "Wulue Wang",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/wulue-wang.webp"
+  },
+  {
+    "name": "Xiang Li",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/xiang-li.webp"
+  },
+  {
+    "name": "Xiaochao Pan",
+    "category": "PhD",
+    "info": "PhD student",
+    "photo": "team/students/xiaochao-pan.webp"
+  },
+  {
+    "name": "Xiaochen Li",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/xiaochen-li.webp",
+    "photo_position": "50% 0%"
+  },
+  {
+    "name": "Xinzhi Zhang",
+    "category": "PhD",
+    "info": "PhD student",
+    "photo": "team/students/xinzhi-zhang.webp"
+  },
+  {
+    "name": "Xuechuan Liu",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/xuechuan-liu.webp"
+  },
+  {
+    "name": "Yidong He",
+    "category": "PhD",
+    "info": "PhD student",
+    "photo": "team/students/yidong-he.webp"
+  },
+  {
+    "name": "Yiran Zeng",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/yiran-zeng.webp"
+  },
+  {
+    "name": "Zengyang Wang",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/zengyang-wang.webp"
+  },
+  {
+    "name": "Zhijie Liu",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/zhijie-liu.webp"
+  },
+  {
+    "name": "Zili Zhang",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/zili-zhang.webp"
+  },
+  {
+    "name": "Ziwu Ge",
+    "category": "Master",
+    "info": "Master student",
+    "photo": "team/students/ziwu-ge.webp"
+  },
+  {
+    "name": "Zuhua Chen",
+    "category": "Undergraduate",
+    "info": "Undergraduate student",
+    "photo": "team/students/zuhua-chen.webp"
   }
 ]
