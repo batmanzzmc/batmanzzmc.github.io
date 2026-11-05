@@ -1,0 +1,13 @@
+{% if site.visitor_counter.image_url and site.visitor_counter.image_url != '' %}
+<aside class="visitor-counter" aria-labelledby="visitor-counter-title">
+  <h2 id="visitor-counter-title">Visitors by country / region</h2>
+  <div class="visitor-counter-flags">
+    {% if site.visitor_counter.stats_url and site.visitor_counter.stats_url != '' %}<a href="{{ site.visitor_counter.stats_url | escape }}" target="_blank" rel="noopener noreferrer" aria-label="View visitor statistics for all countries and regions">{% endif %}
+    <img src="{{ site.visitor_counter.image_url | escape }}" alt="Visitor counts by country and region" width="306" referrerpolicy="strict-origin-when-cross-origin">
+    {% if site.visitor_counter.stats_url and site.visitor_counter.stats_url != '' %}</a>{% endif %}
+  </div>
+  <p>Visitor statistics since this counter was enabled.</p>
+  {% if site.visitor_counter.stats_url and site.visitor_counter.stats_url != '' %}<a class="visitor-counter-details" href="{{ site.visitor_counter.stats_url | escape }}" target="_blank" rel="noopener noreferrer">All countries and regions &rarr;</a>{% endif %}
+  <small>Country / region is estimated from IP. VPNs may affect location. Statistics provided by <a href="https://liveflagcounter.com/privacy" target="_blank" rel="noopener noreferrer">Live Flag Counter</a>.</small>
+</aside>
+{% endif %}

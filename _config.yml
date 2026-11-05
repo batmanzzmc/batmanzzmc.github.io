@@ -34,6 +34,11 @@ url: "https://batmanzzmc.github.io"
 baseurl: "https://batmanzzmc.github.io"
 
 # Analytics -- fill in whichever service you use; leave the rest blank.
+# Public image and statistics URLs only; never put a private edit key here.
+visitor_counter:
+  image_url: "https://liveflagcounter.com/c/bEl1mfQ3.png"
+  stats_url: "https://liveflagcounter.com/stats/bEl1mfQ3"
+
 analytics:
   google_id: ""          # Google Analytics 4 measurement ID, e.g. G-XXXXXXXXXX
   plausible_domain: ""   # Plausible: your site's domain, e.g. jsmith.github.io
