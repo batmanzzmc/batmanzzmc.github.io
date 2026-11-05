@@ -26,10 +26,13 @@
   }
 
   .team-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 128px;
+    height: 160px;
+    padding: 6px;
+    border-radius: var(--radius-md);
+    object-fit: contain;
+    object-position: center;
+    background-color: var(--bg-primary);
     margin-bottom: var(--space-4);
     border: 2px solid var(--bg-primary);
     box-shadow: 0 0 0 1px var(--border-color);
