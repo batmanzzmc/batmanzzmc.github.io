@@ -13,7 +13,11 @@
       {{ content }}
     </main>
 
-    {% include footer.html %}
+    {% unless page.url == '/' %}
+      {% include footer.html %}
+    {% endunless %}
+
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
 
   </body>
 

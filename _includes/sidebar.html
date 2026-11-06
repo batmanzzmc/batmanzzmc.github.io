@@ -14,8 +14,8 @@
 {% assign profile_links = profile_links | strip %}
 {% if profile_links != '' %}<div class="profile-links">{{ profile_links }}</div>{% endif %}
 <div class="profile-contact">
-{% if site.email and site.email != '' %}<p><a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a></p>{% endif %}
-{% if site.links.google_scholar and site.links.google_scholar != '' %}<p><a href="{{ site.links.google_scholar | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>{% endif %}
+{% if site.email and site.email != '' %}<p><a href="mailto:{{ site.email | escape }}">{% include icon.html name="envelope" %} {{ site.email | escape }}</a></p>{% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != '' %}<p><a href="{{ site.links.google_scholar | escape }}" target="_blank" rel="noopener noreferrer">{% include icon.html name="google-scholar" %} Google Scholar</a></p>{% endif %}
 </div>
 </div>
 
