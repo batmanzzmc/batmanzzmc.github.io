@@ -6,6 +6,8 @@ permalink: /publications/
 
 # Publications
 
+CCF ratings follow the [2026 CCF directory](https://www.ccf.org.cn/Academic_Evaluation/By_category/).
+
 <input type="text" class="pub-search" id="pubSearch" placeholder="Filter by title, author, or year...">
 
 <div class="section-card" id="pubList">

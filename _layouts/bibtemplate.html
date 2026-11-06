@@ -7,6 +7,10 @@
 {% assign author_ending = authors | slice: -1, 1 %}
 {% assign title_ending = title | slice: -1, 1 %}
 {% assign venue_ending = venue | slice: -1, 1 %}
+{% assign ccf_rating = site.data.ccf_2026.venues[entry.abbr] %}
+{% if venue contains 'Findings' or venue contains 'Workshop' %}
+  {% assign ccf_rating = 'Not listed' %}
+{% endif %}
 
 {% comment %}
   Links come from BibTeX fields:
@@ -30,7 +34,7 @@
   {% if entry.year %}<span class="year-badge">{{ entry.year }}</span>{% endif %}
   <div class="pub-authors">{{ authors | escape }}{% if author_ending != '.' %}.{% endif %}</div>
   <div class="pub-title">{{ title | escape }}{% unless title_ending == '.' or title_ending == '?' or title_ending == '!' %}.{% endunless %}</div>
-  {% if venue != '' %}<div class="pub-venue"><em>{{ venue | escape }}</em>{% if venue_ending != '.' %}.{% endif %}</div>{% endif %}
+  {% if venue != '' %}<div class="pub-venue"><em>{{ venue | escape }}</em>{% if entry.abbr or entry.year %} ({{ entry.abbr | escape }}{% if entry.abbr and entry.year %} {% endif %}{{ entry.year | escape }}){% endif %}.{% if ccf_rating %} {% if ccf_rating == 'Not listed' %}CCF: Not listed.{% else %}CCF-{{ ccf_rating | escape }}.{% endif %}{% endif %}</div>{% endif %}
 
   <div class="pub-actions">
     {% if has_pdf %}<a href="{{ entry.file | prepend: '/papers/' | relative_url }}" target="_blank" class="btn-pill btn-pdf">PDF</a>{% endif %}

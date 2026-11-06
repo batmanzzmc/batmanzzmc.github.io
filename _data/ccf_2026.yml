@@ -1,0 +1,27 @@
+edition: 2026
+source: https://www.ccf.org.cn/Academic_Evaluation/By_category/
+venues:
+  NeurIPS: A
+  ICML: A
+  ICLR: A
+  ACL: A
+  AAAI: A
+  CVPR: A
+  ISSTA: A
+  TOSEM: A
+  TOIS: A
+  TDSC: A
+  WWW: A
+  IJCAI: B
+  ECAI: B
+  WSDM: B
+  DASFAA: B
+  CIKM: B
+  NN: B
+  TOC: B
+  TNNLS: B
+  IJCNN: C
+  DAI: C
+  ICMI: C
+  PAKDD: C
+  IS: Not listed
