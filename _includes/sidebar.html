@@ -13,13 +13,10 @@
 {% endcapture %}
 {% assign profile_links = profile_links | strip %}
 {% if profile_links != '' %}<div class="profile-links">{{ profile_links }}</div>{% endif %}
-{% if site.data.pi[0].educationshort %}
-<ul style="text-align: left; margin-top: var(--space-4); list-style: none; padding-left: 0;">
-{% for education in site.data.pi[0].educationshort %}
-<li style="font-size: 0.875rem; color: var(--text-secondary); padding: var(--space-1) 0;">{{ education | replace: "-","&#8211;" }}</li>
-{% endfor %}
-</ul>
-{% endif %}
+<div class="profile-contact">
+{% if site.email and site.email != '' %}<p><a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a></p>{% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != '' %}<p><a href="{{ site.links.google_scholar | escape }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></p>{% endif %}
+</div>
 </div>
 
 {% if site.data.news.size > 0 %}

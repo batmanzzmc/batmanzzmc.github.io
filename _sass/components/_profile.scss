@@ -75,4 +75,16 @@
     border-top: 1px solid var(--border-color);
     flex-wrap: wrap;
   }
+
+  .profile-contact {
+    margin-top: var(--space-4);
+    padding-top: var(--space-4);
+    border-top: 1px solid var(--border-color);
+    font-size: 0.875rem;
+
+    p {
+      margin: 0;
+      padding: var(--space-1) 0;
+    }
+  }
 }
