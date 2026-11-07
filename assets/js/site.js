@@ -79,12 +79,15 @@
       var entries = document.querySelectorAll('[data-pub-searchable]');
 
       entries.forEach(function (entry) {
+        // Jekyll wraps each publication in an <li>; hide that wrapper too
+        // so non-matches do not leave empty numbered rows in the list.
+        var row = entry.closest('li') || entry;
         if (!query) {
-          entry.style.display = '';
+          row.style.display = '';
           return;
         }
         var text = entry.textContent.toLowerCase();
-        entry.style.display = text.includes(query) ? '' : 'none';
+        row.style.display = text.includes(query) ? '' : 'none';
       });
     });
   }
