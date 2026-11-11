@@ -54,6 +54,7 @@ analytics:
 nav_pages:
   - name: publications
   - name: research
+    label: GALAX Lab
   - name: team
 
 # ============================================================

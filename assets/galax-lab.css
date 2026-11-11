@@ -1,0 +1,145 @@
+.galax-page {
+  --lab-accent: #5635a2;
+  --lab-soft: #f2edf9;
+  padding-block: 16px 12px;
+}
+[data-bs-theme="dark"] .galax-page {
+  --lab-accent: #cbb7ff;
+  --lab-soft: #33294a;
+}
+.galax-page :is(h1, h2)::after { display: none; }
+.galax-page a:focus-visible {
+  outline: 2px solid var(--lab-accent);
+  outline-offset: 4px;
+}
+
+.galax-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+  gap: 32px;
+  text-align: left;
+  padding: 28px 40px;
+  background: #fff;
+  border-radius: 20px;
+  border: 1px solid var(--border-color);
+}
+.galax-hero .galax-brand {
+  width: 100%;
+  margin: 0;
+  line-height: 1;
+}
+.galax-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+.galax-mission {
+  margin: 16px 0 24px;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: clamp(26px, 3.3vw, 42px);
+  line-height: 1.2;
+  letter-spacing: -.03em;
+  color: #211441;
+}
+.galax-hero-links, .galax-section-heading {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+}
+.galax-section-heading { justify-content: space-between; margin-bottom: 20px; }
+.galax-page .galax-button, .galax-page .galax-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .87rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.galax-page .galax-button {
+  padding: 9px 16px;
+  background: #28165d;
+  color: #fff;
+  border-radius: 999px;
+}
+.galax-page .galax-button:hover { background: #462786; color: #fff; }
+.galax-page .galax-text-link { color: var(--lab-accent); }
+.galax-page .galax-text-link:hover { text-decoration: underline; }
+.galax-section { margin-top: 54px; scroll-margin-top: 90px; }
+.galax-section h2 {
+  margin: 0 0 20px;
+  font-size: clamp(32px, 4vw, 45px);
+  letter-spacing: -.045em;
+}
+.galax-section-heading h2 { margin: 0; }
+
+.galax-grid, .galax-recruitment { display: grid; gap: 18px; }
+.galax-card, .galax-recruitment article {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 48px);
+  align-items: center;
+  padding: clamp(20px, 3vw, 36px);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  background: var(--bg-card);
+}
+.galax-card h3, .galax-recruitment h3 {
+  margin: 0 0 12px;
+  line-height: 1.18;
+  font-size: clamp(22px, 3vw, 33px);
+}
+.galax-card p, .galax-recruitment p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.galax-card figure { margin: 0; }
+.galax-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+.galax-recruitment article {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+  padding: clamp(24px, 3.5vw, 40px);
+  align-items: start;
+}
+.galax-recruitment h3 {
+  margin: 0;
+  font-size: clamp(22px, 2.4vw, 28px);
+  line-height: 1.3;
+  letter-spacing: -.02em;
+  color: var(--lab-accent);
+}
+.galax-recruitment article > div { width: 100%; min-width: 0; }
+.galax-recruitment p { max-width: none; width: 100%; line-height: 1.8; text-wrap: pretty; }
+.galax-recruitment p + p { margin-top: 12px; }
+.galax-reading {
+  list-style: none;
+  padding: 12px 16px;
+  margin: 16px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  border-radius: 10px;
+  background: var(--lab-soft);
+}
+.galax-reading a { color: var(--lab-accent); font-weight: 600; }
+@media (max-width: 760px) {
+  .galax-hero { grid-template-columns: 1fr; gap: 0; padding: 22px; text-align: center; }
+  .galax-hero .galax-brand { max-width: 340px; justify-self: center; }
+  .galax-hero-links { justify-content: center; }
+  .galax-card, .galax-recruitment article { grid-template-columns: minmax(0, 1fr); }
+  .galax-card figure { width: 100%; max-width: 490px; }
+  .galax-desktop-break { display: none; }
+}
+@media (max-width: 520px) {
+  .galax-page { padding-top: 0; }
+  .galax-section { margin-top: 36px; }
+}

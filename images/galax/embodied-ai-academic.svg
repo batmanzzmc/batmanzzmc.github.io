@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="520" viewBox="0 0 720 520" role="img" aria-labelledby="title desc">
+<title id="title">Closed-loop learning in physical world</title>
+<desc id="desc">A system-level robot architecture interacts with a shared physical world. Experience and rewards support robotic reinforcement learning, self-evolution, and multi-robot learning, feeding updates back into the architecture.</desc>
+<defs>
+ <marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0 7 3.5 0 7Z" fill="#675680"/></marker>
+ <marker id="t" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto-start-reverse"><path d="M0 0 7 3.5 0 7Z" fill="#3b807d"/></marker>
+ <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e9edf0" stroke-width=".7"/></pattern>
+</defs>
+<rect width="720" height="520" fill="#fafbfe"/>
+<g font-family="Arial, sans-serif" fill="#29253b" text-anchor="middle">
+ <text x="360" y="34" font-size="23" font-weight="700">Closed-loop learning in physical world</text>
+ <rect x="82" y="57" width="556" height="111" rx="10" fill="#f0ecf8" stroke="#c9bfdc"/>
+ <text x="360" y="81" font-size="15" font-weight="700" letter-spacing="1">SYSTEM-LEVEL ROBOT ARCHITECTURE</text>
+ <g fill="#fff" stroke="#c9bfdc"><rect x="101" y="97" width="140" height="50" rx="6"/><rect x="268" y="97" width="184" height="50" rx="6"/><rect x="479" y="97" width="141" height="50" rx="6"/></g>
+ <g font-size="17"><text x="171" y="127">Perception</text><text x="360" y="127">Planning &amp; memory</text><text x="549" y="127">Policy &amp; control</text></g>
+ <g fill="none" stroke="#675680" stroke-width="2" marker-end="url(#a)"><path d="M241 122H265"/><path d="M452 122H476"/><path d="M544 168V210"/><path d="M176 210V171"/></g>
+ <g font-size="13" fill="#675680"><text x="214" y="192">Observe</text><text x="567" y="192">Act</text></g>
+ <rect x="82" y="213" width="556" height="143" rx="10" fill="url(#grid)" stroke="#d4dce1"/>
+ <text x="360" y="237" font-size="14" font-weight="700" letter-spacing="1">SHARED PHYSICAL WORLD</text>
+ <g stroke="#596079" stroke-width="3" fill="none" stroke-linejoin="round">
+  <path d="M134 319H225M156 319V298L178 269L205 284L228 268"/>
+  <circle cx="178" cy="269" r="5" fill="#e7e1f0"/><circle cx="205" cy="284" r="5" fill="#e7e1f0"/><path d="M228 268l9 2v9"/>
+  <rect x="272" y="290" width="48" height="27" rx="4" fill="#e6eeed"/><circle cx="282" cy="321" r="7" fill="#fff"/><circle cx="310" cy="321" r="7" fill="#fff"/><path d="M296 290V279m-7 0h14"/>
+  <rect x="475" y="290" width="48" height="27" rx="4" fill="#e6eeed"/><circle cx="485" cy="321" r="7" fill="#fff"/><circle cx="513" cy="321" r="7" fill="#fff"/><path d="M499 290V279m-7 0h14"/>
+  <path d="M380 298l17-9 17 9v20l-17 9-17-9zM380 298l17 9 17-9M397 307v20" stroke="#a58c64" fill="#f5eddf"/>
+ </g>
+ <path d="M315 276Q396 244 480 276" fill="none" stroke="#3b807d" stroke-width="1.8" stroke-dasharray="5 4" marker-start="url(#t)" marker-end="url(#t)"/>
+ <g font-size="12" fill="#556077"><text x="183" y="342">Manipulation</text><text x="397" y="256" fill="#3b807d">Coordination</text><text x="397" y="342">Shared task · physical interaction</text></g>
+ <path d="M360 356V396" fill="none" stroke="#3b807d" stroke-width="2" marker-end="url(#t)"/>
+ <text x="446" y="380" font-size="13" fill="#3b807d">Experience &amp; rewards</text>
+ <rect x="82" y="399" width="556" height="75" rx="10" fill="#eaf2ef" stroke="#b9d3cc"/>
+ <g font-size="16" font-weight="700"><text x="178" y="427">Robotic RL</text><text x="360" y="427">Self-evolution</text><text x="542" y="427">Multi-robot learning</text></g>
+ <g font-size="13" fill="#506a66"><text x="178" y="451">Improve policies</text><text x="360" y="451">Refine the system</text><text x="542" y="451">Learn together</text></g>
+ <path d="M270 415V458M451 415V458" stroke="#c0d6d0"/>
+ <path d="M82 436H45V111H79" fill="none" stroke="#3b807d" stroke-width="2.2" marker-end="url(#t)"/>
+ <text transform="translate(31 277) rotate(-90)" font-size="14" fill="#3b807d">Feedback-driven updates</text>
+ <text x="360" y="501" font-size="15" fill="#675680">Toward stable, efficient, closed-loop learning</text>
+</g>
+</svg>
