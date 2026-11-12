@@ -168,3 +168,21 @@
     line-height: 1.5;
   }
 }
+
+// Subtle markers for the flat homepage news list.
+.home-news .news-item {
+  position: relative;
+  padding-left: 22px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: calc(var(--space-3) + 5px);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-light);
+  }
+}
